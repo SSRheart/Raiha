@@ -1,0 +1,15 @@
+python train_raihanet.py --dataset_root ../iHarmony4Resized/ \
+                    --batch_size 48 \
+                    --model raihanet \
+                    --netG rhnet \
+                    --lr 0.004 \
+                    --name raiha \
+                    --dataset_mode ragiharmony4 \
+                    --gpu_ids 0,1 \
+                    --niter 40 \
+                    --niter_decay 20 \
+                    --jsonl_path IHD_test_temp \
+                    --att 'dvtatt' \
+                    --use_MGD 1 \
+                    --addpos 1 \
+                    --dvt 1 \
