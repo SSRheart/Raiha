@@ -1,4 +1,4 @@
-
+# Retrieval Augmented Image Harmonization
 This is the official repository for our paper:
 **Retrieval Augmented Image Harmonization**
 > [https://arxiv.org/abs/2412.13916](https://arxiv.org/abs/2412.13916)
